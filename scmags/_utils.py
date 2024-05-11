@@ -5,7 +5,7 @@ import anndata as ad
 
 
 def convert_form_anndata(adata: ad.AnnData, cell_annotation_col: str):
-    """_summary_
+    """Function to retrieve the expression data, cell labels and gene names from an AnnData object.
 
     Args:
             adata (ad.AnnData): AnnData that contains .obs with the cell labels and .var with the gene names.
